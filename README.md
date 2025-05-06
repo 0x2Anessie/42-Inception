@@ -1,5 +1,8 @@
 ## Commandes Makefile – Inception
 
+Ce projet utilise un Makefile pour automatiser les principales actions Docker liées au projet Inception.  
+Chaque commande simplifie la gestion des images, conteneurs, volumes et réseaux nécessaires au bon fonctionnement des services (MariaDB, WordPress, NGINX).
+
 | Commande         | Que fait-elle ?                                                                                                  |
 |------------------|------------------------------------------------------------------------------------------------------------------|
 | `make build`     | Construit les **images Docker** pour chaque service à partir des `Dockerfile`. Ne crée ni conteneurs ni volumes. |
