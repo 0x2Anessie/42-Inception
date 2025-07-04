@@ -24,6 +24,7 @@ wp core config --dbhost="mariadb:3306" \
     --dbuser="$MYSQL_USER" \
     --dbpass="$MYSQL_PASSWORD" \
     --allow-root
+    #iciiiiii
 
 # Installer WordPress (admin)
 wp core install --url="$DOMAIN_NAME" \
